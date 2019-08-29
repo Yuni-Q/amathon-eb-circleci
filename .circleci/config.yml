@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Deploy to EB if branch is Master
           command: |
-            eb use amathon-dev --profile amathon 
+            eb use amathon-dev3 --profile amathon 
             # 현재 eb application 이름과 IAM credentials profile 이름을 적어주세요.
             eb deploy --profile amathon
 
